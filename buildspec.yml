@@ -35,5 +35,7 @@
           # - command
     artifacts:
       files:
+      - buildspec.yml
+       
       discard-paths: No
      # base-directory: ssmParams
