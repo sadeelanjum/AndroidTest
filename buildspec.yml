@@ -1,0 +1,39 @@
+    version: 0.2
+
+    env:
+      #variables:
+          #keytom: "sha1key123"
+          #keymill: "dudeChanged"
+      parameter-store:
+          sha1ForPyFile: "sh1keyForPyFile"
+          sha1ForJsonFile: "sh1keyForJsonFile"
+          
+    phases:
+      install:
+        commands:
+          - pip install cx_Oracle  
+          - pip install RobotFramework
+          - pip install jaydebeapi 
+          - pip install boto3 
+          - pip install --upgrade pip
+          - python -m pip install pylint
+          - python -m pip install pytest
+            
+      pre_build:
+        commands:
+          - export PYTHONPATH=.
+          - pylint ssm.py|| exit 0
+
+          
+      build:
+        commands:
+          # - command
+      post_build:
+        commands:
+
+
+          # - command
+    artifacts:
+      files:
+      discard-paths: No
+     # base-directory: ssmParams
