@@ -1,12 +1,4 @@
     version: 0.2
-
-    env:
-      #variables:
-          #keytom: "sha1key123"
-          #keymill: "dudeChanged"
-      parameter-store:
-          sha1ForPyFile: "sh1keyForPyFile"
-          sha1ForJsonFile: "sh1keyForJsonFile"
           
     phases:
       install:
