@@ -6,7 +6,6 @@
           - java -version
           - sudo apt-get install
           - java -version
-          - sudo apt-get install openjdk-7-jre
           - sudo apt-get install openjdk-7-jdk
             
       pre_build:
