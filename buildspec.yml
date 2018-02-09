@@ -3,24 +3,11 @@
     phases:
       install:
         commands:
-          - pwd
-          - ls
-          - cd ../
-          - pwd
-          - ls
-          - cd ../   
-          - pwd
-          - ls
-          - cd ../  
-          - pwd
-          - ls
-          - cd ../    
-          - pwd
-          - ls
-          - cd ../    
-          - pwd
-          - ls
-          - cd ../
+          - sudo apt-get install
+          - java -version
+          - sudo apt-get install default-jre
+          - sudo apt-get install openjdk-7-jre
+          - sudo apt-get install openjdk-7-jdk
             
       pre_build:
         commands:
