@@ -10,6 +10,24 @@
           - pip install boto3  
           - python -m pip install pylint
           - python -m pip install pytest
+          - pwd
+          - ls
+          - cd ../
+          - pwd
+          - ls
+          - cd ../   
+          - pwd
+          - ls
+          - cd ../  
+          - pwd
+          - ls
+          - cd ../    
+          - pwd
+          - ls
+          - cd ../    
+          - pwd
+          - ls
+          - cd ../
             
       pre_build:
         commands:
