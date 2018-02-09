@@ -3,13 +3,6 @@
     phases:
       install:
         commands:
-          - pip install --upgrade pip
-          - pip install cx_Oracle  
-          - pip install RobotFramework
-          - pip install jaydebeapi 
-          - pip install boto3  
-          - python -m pip install pylint
-          - python -m pip install pytest
           - pwd
           - ls
           - cd ../
