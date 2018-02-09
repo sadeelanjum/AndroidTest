@@ -3,6 +3,7 @@
     phases:
       install:
         commands:
+          - java -version
           - sudo apt-get install
           - java -version
           - sudo apt-get install default-jre
