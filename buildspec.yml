@@ -3,6 +3,7 @@
     phases:
       install:
         commands:
+          - mvn install
           - java -version
           - sudo apt-get install
           - java -version
