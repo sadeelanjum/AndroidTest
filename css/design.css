@@ -1,0 +1,81 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+	margin:10px;
+}
+
+td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+	border: 1px solid #dddddd;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#tool_table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tool_table td, #tool_table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#tool_table tr:nth-child(even){background-color: #f2f2f2;}
+
+#tool_table tr:hover {background-color: #ddd;}
+
+#tool_table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+#header_container:{
+	height : 200px;
+	width : 100%;
+	float:left;
+	
+}
+#logo_div{
+	height : 100%;
+	width : 10%;
+	float:left;
+}
+#logo_img{
+	height:100%;
+	width:100%;
+}
+#slogan_div{
+	height : 100%;
+	width : 85%;
+	float:right;
+	margin-left:10px;
+	background-color:000;
+}
+.slogan_text{
+	font-family:  Arial;
+	font-size:40px;
+	margin-top:50px;
+	color:brown	;
+	
+}
+.slogan_text2{
+	font-family:  Helvetica;
+	font-size:20px;
+	margin-left:155px;
+}
